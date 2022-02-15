@@ -1,4 +1,4 @@
-package notification;
+package javaswingdev;
 
 import java.awt.Color;
 import java.awt.Frame;
@@ -10,7 +10,6 @@ import javax.swing.JDialog;
 import org.jdesktop.animation.timing.Animator;
 import org.jdesktop.animation.timing.TimingTarget;
 import org.jdesktop.animation.timing.TimingTargetAdapter;
-import shadow.ShadowRenderer;
 
 public class Notification extends javax.swing.JComponent {
 
@@ -228,7 +227,7 @@ public class Notification extends javax.swing.JComponent {
         cmdClose = new javax.swing.JButton();
 
         lbIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/notification/sucess.png"))); // NOI18N
+        lbIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaswingdev/sucess.png"))); // NOI18N
 
         panel.setOpaque(false);
 
@@ -260,7 +259,7 @@ public class Notification extends javax.swing.JComponent {
                 .addContainerGap())
         );
 
-        cmdClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/notification/close.png"))); // NOI18N
+        cmdClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaswingdev/close.png"))); // NOI18N
         cmdClose.setBorder(null);
         cmdClose.setContentAreaFilled(false);
         cmdClose.setFocusable(false);

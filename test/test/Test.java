@@ -6,7 +6,7 @@
 package test;
 
 import java.awt.Color;
-import notification.Notification;
+import javaswingdev.Notification;
 
 /**
  *

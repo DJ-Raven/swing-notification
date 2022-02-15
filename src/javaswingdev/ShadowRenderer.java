@@ -1,9 +1,9 @@
-package shadow;
+package javaswingdev;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 
-public class ShadowRenderer {
+class ShadowRenderer {
 
     // size of the shadow in pixels (defines the fuzziness)
     private int size = 5;
